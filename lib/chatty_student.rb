@@ -8,7 +8,7 @@ end
 def raise_hand
   super
   counter = 0
-while counter < 10
+until counter == 10
   puts "Pick me!"
   counter += 1
 end
