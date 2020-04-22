@@ -6,12 +6,7 @@ puts "How are you doing today? I'm okay, but I'm kind of tired. Did you watch Th
 end
 
 def raise_hand
-  super
-  counter = 0
-until counter == 10
-  puts "Pick me!"
-  counter += 1
-end
+  10.times{super}
 end
 
 end
